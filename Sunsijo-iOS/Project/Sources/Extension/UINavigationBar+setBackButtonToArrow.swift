@@ -1,8 +1,11 @@
-//
-//  UINavigationBar+setBackButtonToArrow.swift
-//  Sunsijo-iOS
-//
-//  Created by 김태원 on 2022/12/15.
-//
+import UIKit
 
-import Foundation
+extension UINavigationBar {
+    func setBackButtonToArrow() {
+        let XButton = UIImage(systemName: "arrow.backward")
+        self.backIndicatorImage = XButton
+        self.backIndicatorTransitionMaskImage = XButton
+        self.topItem?.title = ""
+        self.tintColor = .black
+    }
+}
