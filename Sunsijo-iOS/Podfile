@@ -13,6 +13,9 @@ pod 'RxSwift'
 pod 'RxCocoa'
 pod 'RxFlow'
 pod 'SwiftLint'
-pod 'DLRadioButton'
+pod 'KeychainSwift'
+pod 'RxGesture'
+pod 'Moya'
+pod 'Moya/RxSwift'
 
 end
